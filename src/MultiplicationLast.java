@@ -10,10 +10,15 @@ public class MultiplicationLast {
 		
 		int first = Integer.parseInt(splitedValue[0]);
 		int second = Integer.parseInt(splitedValue[1]);
+
+//1st requirement
 		
-		for(int i=1; i<first.length; i++) {
-			for
-		}
+		for
+	
+		System.out.println(first+second);
+//		for(int i=1; i<first.length; i++) {
+//			for
+//		}
 			
 	}
 }
