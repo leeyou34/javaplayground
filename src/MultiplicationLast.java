@@ -6,19 +6,12 @@ public class MultiplicationLast {
 		Scanner scanner = new Scanner(System.in);
 		String inputValue = scanner.nextLine();
 		
-		String[] splitedValue = inputValue.split(",");
-		
-		int first = Integer.parseInt(splitedValue[0]);
-		int second = Integer.parseInt(splitedValue[1]);
+		int first=Integer.parseInt(inputValue);
 
-//1st requirement
-		
-		for
-	
-		System.out.println(first+second);
-//		for(int i=1; i<first.length; i++) {
-//			for
-//		}
-			
+		//1st requirement
+		for(int i=1; i<=first; i++) {
+			System.out.println(first+"x"+i+"="+first*i);
+		}
 	}
 }
+		
