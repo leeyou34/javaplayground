@@ -13,12 +13,11 @@ public class MultiplicationLast2 {
 
 		//8,7 과 같은 문자열을 입력하면...
 		
-			for(int i=1; i<=first; i++) {
-				//for(int j=2; j<=second; j++) {
-					System.out.println(first+"x"+i+"="+first*i);
-				//}
+		for(int i=2; i<=first; i++) {
+			System.out.println("\n"+i+"단 출력 시작\n");
+			for(int j=1; j<=second; j++) {
+				System.out.println(i+"x"+j+"="+i*j);
+			}
 		}
 	}
 }
-	
-
