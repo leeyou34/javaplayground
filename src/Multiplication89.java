@@ -17,6 +17,7 @@ public class Multiplication89 {
 					System.out.println(x+"*"+i+"="+x*i);
 				}
 			}
+		input.close();
 		}
 
 }

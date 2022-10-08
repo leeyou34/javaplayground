@@ -18,5 +18,6 @@ public class MultiplicationLast4 {
 				System.out.println(i+"x"+j+"="+i*j);
 			} while (j++ <second);
 		} while (i++ < first);
+		scanner.close();
 	}
 }

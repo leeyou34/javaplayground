@@ -16,7 +16,7 @@ public class Multiplication67 {
 			System.out.println("loop break has been activated");
 			break;
 		}
-		
+	input.close();	
 	}
 
 }

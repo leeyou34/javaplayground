@@ -19,6 +19,7 @@ public class MultiplicationLast3 {
 				System.out.println(i+"x"+j+"="+i*j);
 			}
 		}
+		scanner.close();
 	}
 
 }

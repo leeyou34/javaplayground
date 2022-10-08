@@ -14,10 +14,10 @@ public class Multiplication45 {
 		int input = reader.nextInt();
 		
 		//for문 선언으로 숫자 조건에 따라 자동 증갑하게 작동
-		for(int i=1; i<=9; i++) {
-			System.out.println(input*i);
+			for(int i=1; i<=9; i++) {
+				System.out.println(input*i);
 		
-		}
-
+			}
+		reader.close();
 	}
 }

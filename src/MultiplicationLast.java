@@ -12,6 +12,7 @@ public class MultiplicationLast {
 		for(int i=1; i<=first; i++) {
 			System.out.println(first+"x"+i+"="+first*i);
 		}
+		scanner.close();
 	}
 }
 		

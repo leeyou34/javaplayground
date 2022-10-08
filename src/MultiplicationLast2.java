@@ -19,5 +19,6 @@ public class MultiplicationLast2 {
 				System.out.println(i+"x"+j+"="+i*j);
 			}
 		}
+		scanner.close();
 	}
 }
